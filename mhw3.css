@@ -1,0 +1,244 @@
+a{
+    cursor:pointer;
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(50, 50, 50, .6);
+}
+
+#album-view {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+#album-view .album {
+    margin: 10px;
+    border: 1px solid slategray;
+    padding: 5px;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+  
+#album-view .album:hover {
+    background-color: #cfe3ff;
+}
+  
+#album-view img {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+#album-view.hidden {
+    display: none;
+}
+
+article {
+	margin: 20px 0;
+	background-color: rgba(0,0,0,0.1);
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    color: azure;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 2px;
+}
+
+form {
+	width: 66%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    font-size: 12px;
+    background-image: url(images/var.jpeg);
+    background-size: cover;
+    background-position-y: 10%;
+    height: 500px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+header nav{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 9px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+  
+    font-size: 14px;
+    padding: 20px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+
+
+#intro p{
+    margin-bottom: 0;
+}
+
+li{
+    padding: 60px 40px;
+}
+
+
+#links a{
+    margin: 15px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+}
+
+#main img{
+    width: 100%;
+}
+
+.match{
+    font-family: 'Fjalla One', sans-serif;
+    color: rgba(50, 50, 50, .6)e;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+ol{
+    margin: 0;
+}
+
+
+p{
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 19px;
+}
+
+p, .verdetto{
+    margin-top: 20px;
+}
+
+#profile{
+    font-size: 9px;
+    width: 500px;
+    text-align: center;
+    border-bottom: 2px solid rgba(50, 50, 50, .6);
+}
+#profile_img{
+    text-align: center;
+}
+
+#profile_img img{
+    position: relative;
+    height: 100px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+
+section{
+
+    width: calc(200vw/3);
+    margin: 0px calc(100vw/6) 30px calc(100vw/6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.squadra{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.stat{
+    margin: 15px;
+}
+
+#tendina{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 9px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(192, 175, 175);
+  
+    font-size: 14px;
+    margin: 0px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+#tendina.hidden {
+	display: none; 
+}
+
+#title{
+    background-color: black;
+    border: 3px solid rgba(50, 50, 50, .6);
+    border-radius: 12px;
+    font-weight: normal;
+    text-align: center;
+    width: 750px;
+}
+
+.verdetto{
+    padding: 5px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
